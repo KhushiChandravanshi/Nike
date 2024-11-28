@@ -1,0 +1,324 @@
+/* footer */
+footer{
+    height: 70px;
+    width:100%;
+    /* border-style: dotted;
+    border-color: rgb(221, 15, 84); */
+    text-align: center;
+    background-color: black;
+}
+footer button{
+    background-color: #ffc328;
+    border-radius: 6px;
+    color: #443102;
+    margin-top: 7px;
+}
+@media screen and (max-width:1600px){
+    body{
+        background-color: rgb(240, 187, 170);
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color: #bba8ad;
+    }
+    
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(170, 240, 178);
+    }
+}
+
+@media screen and (max-width:1050px){
+    body{
+        background-color: rgb(170, 234, 240);
+    } 
+    .tileContainer{
+        width:45%
+    }
+    header img{
+        margin-left: 15px;
+   }
+   .search-container {
+       margin-left: 40px;
+   }
+   input[type=text] {
+       padding: 3px;
+       font-size: 10px;
+       border: 1px solid #ddd;
+       width: 80%;
+   }
+   button {
+       padding: 3px;
+       font-size: 10px;
+       border: 1px solid #ddd;
+       cursor: pointer;
+       background: #f1f1f1;
+   }
+   .eye{
+       display: flex; 
+       align-items: center; 
+       padding: 2px;
+       margin-left: 5px;
+   }
+   .mouse{
+       margin-left: auto; 
+       display: flex; 
+       align-items: center;
+   }
+   .add{
+       padding: 4px; 
+       font-size: 8px; 
+       border: 1px solid #ddd; 
+       cursor: pointer; 
+       background: #f1f1f1; 
+       margin-right: 12px;
+   }
+   .cart{
+       padding: 4px; 
+       font-size: 8px; 
+       border: 1px solid #ddd; 
+       cursor: pointer; 
+       background: #f1f1f1;
+       margin-right: 10px;
+       margin-top: 15px;
+       margin-bottom: 15px;
+   }
+   .black{
+       background-color: #0a0303;
+       color: white;
+       font-size: larger;
+       font-weight: bolder;
+       border-radius: 9px;
+   }
+   .blue{
+       background-color: rgb(19, 27, 27);
+       
+   }
+   .her{
+       margin-top:15px;
+       margin-left: 15px;
+   }
+   .khushi{
+       background-color: rgb(165, 4, 39);
+       color: rgb(231, 222, 223);
+       font-style: italic;
+       font-weight: bold;
+       font-size: larger;
+   }
+   .edit{
+       font-size:20px;
+       color:rgb(22, 9, 13);
+       margin-top: 25px;
+       margin-left: 10px;
+       
+   }
+   .delete{
+       font-size:20px;
+       color:rgb(7, 3, 1);
+       margin-top: 25px;
+       margin-left: 8px;
+       margin-right: 14px;
+   }
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(194, 170, 240);
+    }
+    .tileContainer{
+        width:90%
+    }
+    #heading {
+        font-size: 47px;
+        margin-left: 0%;
+        margin-top: 40%;
+    }
+    .dropdown{
+        margin-left: 0%;
+        margin-top: 55%;
+        width:100%
+    }
+    select{
+        font-size:15px;
+    }
+    #logo{
+        margin-left: 27%;
+    }
+    header img{
+        margin-left: 15px;
+   }
+   .search-container {
+       margin-left: 40px;
+   }
+   input[type=text] {
+       padding: 3px;
+       font-size: 10px;
+       border: 1px solid #ddd;
+       width: 80%;
+   }
+   button {
+       padding: 3px;
+       font-size: 10px;
+       border: 1px solid #ddd;
+       cursor: pointer;
+       background: #f1f1f1;
+   }
+   .eye{
+       display: flex; 
+       align-items: center; 
+       padding: 2px;
+       margin-left: 5px;
+   }
+   .mouse{
+       margin-left: auto; 
+       display: flex; 
+       align-items: center;
+   }
+   .add{
+       padding: 4px; 
+       font-size: 8px; 
+       border: 1px solid #ddd; 
+       cursor: pointer; 
+       background: #f1f1f1; 
+       margin-right: 12px;
+   }
+   .cart{
+       padding: 4px; 
+       font-size: 8px; 
+       border: 1px solid #ddd; 
+       cursor: pointer; 
+       background: #f1f1f1;
+       margin-right: 10px;
+       margin-top: 15px;
+       margin-bottom: 15px;
+   }
+   .black{
+       background-color: #0a0303;
+       color: white;
+       font-size: larger;
+       font-weight: bolder;
+       border-radius: 9px;
+   }
+   .blue{
+       background-color: rgb(19, 27, 27);
+       
+   }
+   .her{
+       margin-top:15px;
+       margin-left: 15px;
+   }
+   .khushi{
+       background-color: rgb(165, 4, 39);
+       color: rgb(231, 222, 223);
+       font-style: italic;
+       font-weight: bold;
+       font-size: larger;
+   }
+   .edit{
+       font-size:20px;
+       color:rgb(22, 9, 13);
+       margin-top: 25px;
+       margin-left: 10px;
+       
+   }
+   .delete{
+       font-size:20px;
+       color:rgb(7, 3, 1);
+       margin-top: 25px;
+       margin-left: 8px;
+       margin-right: 14px;
+   }
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(228, 170, 240);
+    }
+    header img{
+        margin-left: 15px;
+   }
+   .search-container {
+       margin-left: 40px;
+   }
+   input[type=text] {
+       padding: 3px;
+       font-size: 10px;
+       border: 1px solid #ddd;
+       width: 80%;
+   }
+   button {
+       padding: 3px;
+       font-size: 10px;
+       border: 1px solid #ddd;
+       cursor: pointer;
+       background: #f1f1f1;
+   }
+   .eye{
+       display: flex; 
+       align-items: center; 
+       padding: 2px;
+       margin-left: 5px;
+   }
+   .mouse{
+       margin-left: auto; 
+       display: flex; 
+       align-items: center;
+   }
+   .add{
+       padding: 4px; 
+       font-size: 8px; 
+       border: 1px solid #ddd; 
+       cursor: pointer; 
+       background: #f1f1f1; 
+       margin-right: 12px;
+   }
+   .cart{
+       padding: 4px; 
+       font-size: 8px; 
+       border: 1px solid #ddd; 
+       cursor: pointer; 
+       background: #f1f1f1;
+       margin-right: 10px;
+       margin-top: 15px;
+       margin-bottom: 15px;
+   }
+   .black{
+       background-color: #0a0303;
+       color: white;
+       font-size: larger;
+       font-weight: bolder;
+       border-radius: 9px;
+   }
+   .blue{
+       background-color: rgb(19, 27, 27);
+       
+   }
+   .her{
+       margin-top:15px;
+       margin-left: 15px;
+   }
+   .khushi{
+       background-color: rgb(165, 4, 39);
+       color: rgb(231, 222, 223);
+       font-style: italic;
+       font-weight: bold;
+       font-size: larger;
+   }
+   .edit{
+       font-size:20px;
+       color:rgb(22, 9, 13);
+       margin-top: 25px;
+       margin-left: 10px;
+       
+   }
+   .delete{
+       font-size:20px;
+       color:rgb(7, 3, 1);
+       margin-top: 25px;
+       margin-left: 8px;
+       margin-right: 14px;
+   }
+
+}

@@ -1,0 +1,41 @@
+{
+    "openapi":"3.0.0",
+    "info":{
+        "description":"This is api for products",
+        "version":"__version__"
+    },
+    "tags":[
+        {
+            "name":"PUBLIC ROUTE",
+            "description":"Public Route"
+        }
+    ],
+    "paths":{
+        "/health":{
+            "summary":"Testing Health Check",
+            "get":{
+                "description":"Testing User for app",
+                "tags":["PUBLIC ROUTE"],
+                "responses":{
+                    "200":{
+                        "description":"Health Check Pass"
+                    }
+                }
+            }
+        },
+        "paths":{
+        "/collection":{
+            "summary":"Testing collection Check",
+            "get":{
+                "description":"Testing User for app",
+                "tags":["PUBLIC ROUTE"],
+                "responses":{
+                    "200":{
+                        "description":"collection route"
+                    }
+                }
+            }
+        }
+    }
+}
+}

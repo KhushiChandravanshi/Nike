@@ -1,0 +1,21 @@
+.describe{
+    height: 400px;
+    width:100%;
+    /* border-style: dotted;
+    border-color: rgb(116, 42, 8); */
+    background-color: #e26f6f;
+    color: wheat;
+}
+.one{
+    margin-left: 220px;
+    margin-top: 40px;
+}
+.outer{
+    display: inline-block;
+}
+.describe .outer {
+    display: flex; 
+}
+.two{
+    margin-left: 80px;
+}

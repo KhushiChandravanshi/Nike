@@ -1,0 +1,104 @@
+header{
+    height: 80px;
+    width:100%;
+    background-color:#719e67;
+    display: flex;
+}
+header img{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+ .search-container {
+    margin-left: 300px;
+    margin-top: 12px;
+}
+ input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #ddd;
+    width: 60%;
+}
+ button {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    background: #f1f1f1;
+}
+ button:hover {
+    background: #ddd;
+}
+.eye{
+    display: flex; 
+    align-items: center; 
+    padding: 20px;
+}
+.mouse{
+    margin-left: auto; 
+    display: flex; 
+    align-items: center;
+}
+/* .mouse button{ */
+    /* border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 7px; */
+    /* background-color: #ac0327;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    
+} */
+.add{
+    padding: 10px; 
+    font-size: 17px; 
+    border: 1px solid #ddd; 
+    cursor: pointer; 
+    background: #f1f1f1; 
+    margin-right: 10px;
+}
+.cart{
+    padding: 10px; 
+    font-size: 17px; 
+    border: 1px solid #ddd; 
+    cursor: pointer; 
+    background: #f1f1f1;
+}
+.black{
+    background-color: #0a0303;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 50px;
+}
+.blue{
+    background-color: rgb(19, 27, 27);
+}
+.her{
+    margin-top:15px;
+    margin-left: 25px;
+}
+.khushi{
+    background-color: rgb(165, 4, 39);
+    color: rgb(231, 222, 223);
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+}
+.edit{
+    font-size:30px;
+    color:rgb(22, 9, 13);
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.delete{
+    font-size:30px;
+    color:rgb(7, 3, 1);
+    margin-top: 20px;
+    margin-left: 10px;
+}

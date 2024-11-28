@@ -1,0 +1,24 @@
+.signin{
+    height: 90px;
+    width:100%;
+    /* border-style: dotted;
+    border-color: rgb(18, 172, 139); */
+    text-align: center;
+    /* background-color: #e26f6f; */
+}
+.upper{
+    margin-top: 29px;
+    color: #0a0303;
+    font-size: large;
+}
+.yellow{
+    background-color: #ffc328;
+    border-radius: 5px;
+    padding: 3px 70px;
+    font-weight: bolder;
+    color: #0a0303;
+}
+.lower{
+    margin-top: 8px;
+    color: #000;
+}

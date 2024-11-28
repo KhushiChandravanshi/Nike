@@ -1,0 +1,14 @@
+.back-to-top{
+    height: 47px;
+    width:100%;
+    /* border-style: dotted;
+    border-color: rgb(126, 197, 11); */
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight:lighter;
+}
+.back-to-top button{
+    background-color: black;
+    border-color: black;
+}

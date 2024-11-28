@@ -1,0 +1,15 @@
+.navigation{
+    height: 120px;
+    width:100%;
+}
+.space{
+    margin-left: 35px;
+    padding:8px;
+    font-size:large;
+    margin-top: 30px;
+    border-color: white;
+    background-color:black;
+    font-weight: bold;
+    border-radius: 6px;
+    color: white;
+}
