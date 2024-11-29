@@ -26,43 +26,55 @@ async function getData(colName,query){
     return output
 }
 
-// async function postData(colName,data){
-//     let output;
-//     try{
-//         output = await db.collection(colName).insertOne(data)
-//     }catch(err){
-//         output = {"response":"Error In Post Data"}
-//     }
-//     return output
-// }
+async function postData(colName,data){
+    let output;
+    try{
+        output = await db.collection(colName).insertOne(data)
+    }catch(err){
+        output = {"response":"Error In Post Data"}
+    }
+    return output
+}
 
-// async function updateData(colName,condition,data){
-//     let output;
-//     try{
-//         output = await db.collection(colName).updateOne(condition,data)
-//     }catch(err){
-//         output = {"response":"Error in updating data"}
-//     }
-//     return output
-// }
+async function updateData(colName,condition,data){
+    let output;
+    try{
+        output = await db.collection(colName).updateOne(condition,data)
+    }catch(err){
+        output = {"response":"Error in updating data"}
+    }
+    return output
+}
 
-// async function deleteData(colName,condition){
-//     let output;
-//     try{
-//         output = await db.collection(colName).deleteOne(condition)
-//     }catch(err){
-//         output ={"response":"Error in deleteing"}
-//     }
-//     return output
+async function deleteData(colName,condition){
+    let output;
+    try{
+        output = await db.collection(colName).deleteOne(condition)
+    }catch(err){
+        output ={"response":"Error in deleteing"}
+    }
+    return output
 
-// }
+}
 
 
 
 module.exports= {
     dbConnect,
-    getData
-    // postData,
-    // updateData,
-    // deleteData
+    getData,
+    postData,
+    updateData,
+    deleteData
 }
+// db.products.update(
+//     {_id:1},
+//     {
+//         $set:{
+//             "status":"delivered"
+//         }
+//     }
+// )
+
+// db.products.deleteOne(condition)
+
+// db.products.deleteOne({_id:1})

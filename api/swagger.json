@@ -1,7 +1,7 @@
 {
     "openapi":"3.0.0",
     "info":{
-        "description":"This is api for products",
+        "description":"This is api for restaurants",
         "version":"__version__"
     },
     "tags":[
@@ -14,28 +14,150 @@
         "/health":{
             "summary":"Testing Health Check",
             "get":{
-                "description":"Testing User for app",
+                "description":"Testinhg User for app",
                 "tags":["PUBLIC ROUTE"],
                 "responses":{
                     "200":{
                         "description":"Health Check Pass"
                     }
                 }
+
             }
         },
-        "paths":{
         "/collection":{
-            "summary":"Testing collection Check",
+            "summary":"Testing collection route",
             "get":{
-                "description":"Testing User for app",
+                "description":"Testinhg collection route for app",
                 "tags":["PUBLIC ROUTE"],
+                "parameters":[
+                    {
+                        "name":"x-access-auth",
+                        "in":"header",
+                        "required":true
+                    }
+                ],
                 "responses":{
                     "200":{
                         "description":"collection route"
                     }
                 }
+
+            }
+        },
+        "/details":{
+            "summary":"Testing collection route",
+            "get":{
+                "description":"Testinhg collection route for app",
+                "tags":["PUBLIC ROUTE"],
+                "parameters":[
+                    {
+                        "name":"id",
+                        "in":"path",
+                        "required":true
+                    },
+                    {
+                        "name":"collectionId",
+                        "in":"query"
+                    }
+                ],
+                "responses":{
+                    "200":{
+                        "description":"collection route"
+                    }
+                }
+
+            }
+        },
+        "/placeOrder":{
+            "summary":"Testing collection route",
+            "post":{
+                "description":"Testinhg collection route for app",
+                "tags":["PUBLIC ROUTE"],
+                "requestBody":{
+                    "required":true,
+                    "content":{
+                        "application/json":{
+                            "schema":{
+                                "type":"object",
+                                "id":"string"
+                            },
+                            "example":{
+                                "name": "Khushi",
+                                "email": "khushi@gmail.com",
+                                "address": "Hom 65",
+                                "phone": 9934645457,
+                                "cost": 666,
+                                "menuItem": [
+                                    9,4,5
+                                ],
+                                "status": "Pending"
+                            }
+                        }
+                    }
+                },
+                "responses":{
+                    "200":{
+                        "description":"collection route"
+                    }
+                }
+
+            }
+        },
+        "/updateOrder":{
+            "summary":"Testing collection route",
+            "put":{
+                "description":"Testinhg collection route for app",
+                "tags":["PUBLIC ROUTE"],
+                "requestBody":{
+                    "required":true,
+                    "content":{
+                        "application/json":{
+                            "schema":{
+                                "type":"object",
+                                "id":"string"
+                            },
+                            "example":{
+                                "_id":"3534f4645y45y54",
+                                "status": "Pending"
+                            }
+                        }
+                    }
+                },
+                "responses":{
+                    "200":{
+                        "description":"collection route"
+                    }
+                }
+
+            }
+        },
+        "/deleteOrder":{
+            "summary":"Testing collection route",
+            "delete":{
+                "description":"Testinhg collection route for app",
+                "tags":["PUBLIC ROUTE"],
+                "requestBody":{
+                    "required":true,
+                    "content":{
+                        "application/json":{
+                            "schema":{
+                                "type":"object",
+                                "id":"string"
+                            },
+                            "example":{
+                                "_id":"3534f4645y45y54",
+                                "status": "Pending"
+                            }
+                        }
+                    }
+                },
+                "responses":{
+                    "200":{
+                        "description":"collection route"
+                    }
+                }
+
             }
         }
     }
-}
 }
